@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2EE240CFE4A3D2AC6E4B46 /* libPods-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4190F92FBB4832B6D356FE8 /* libPods-Test.a */; };
+		8409BCAF1B681CC5001446BB /* SongRKObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8409BCAE1B681CC5001446BB /* SongRKObjectManager.m */; };
 		843CED111B655F40009410E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 843CED101B655F40009410E7 /* main.m */; };
 		843CED141B655F40009410E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843CED131B655F40009410E7 /* AppDelegate.m */; };
 		843CED171B655F40009410E7 /* Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843CED151B655F40009410E7 /* Test.xcdatamodeld */; };
@@ -15,6 +17,8 @@
 		843CED1F1B655F40009410E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843CED1E1B655F40009410E7 /* Images.xcassets */; };
 		843CED221B655F40009410E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843CED201B655F40009410E7 /* LaunchScreen.xib */; };
 		843CED2E1B655F40009410E7 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843CED2D1B655F40009410E7 /* TestTests.m */; };
+		843CED451B656AF4009410E7 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843CED441B656AF4009410E7 /* CustomTableViewCell.m */; };
+		84DF26541B66B51600445C0C /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DF26531B66B51600445C0C /* Song.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8409BCAD1B681CC5001446BB /* SongRKObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongRKObjectManager.h; sourceTree = "<group>"; };
+		8409BCAE1B681CC5001446BB /* SongRKObjectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongRKObjectManager.m; sourceTree = "<group>"; };
 		843CED0B1B655F40009410E7 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843CED0F1B655F40009410E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843CED101B655F40009410E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +48,14 @@
 		843CED271B655F40009410E7 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843CED2C1B655F40009410E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843CED2D1B655F40009410E7 /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		843CED431B656AF4009410E7 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableViewCell.h; path = ../CustomTableViewCell.h; sourceTree = "<group>"; };
+		843CED441B656AF4009410E7 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableViewCell.m; path = ../CustomTableViewCell.m; sourceTree = "<group>"; };
+		84A76CCE1B66941500C1DF9E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		84DF26521B66B51600445C0C /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		84DF26531B66B51600445C0C /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		AD4E5F29227C91F2D17E8DF5 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		C4190F92FBB4832B6D356FE8 /* libPods-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71639374CE675C68F88DCE4 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2EE240CFE4A3D2AC6E4B46 /* libPods-Test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +77,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CE6CD8DDBBD49931BF31F66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4190F92FBB4832B6D356FE8 /* libPods-Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		843CED021B655F3F009410E7 = {
 			isa = PBXGroup;
 			children = (
 				843CED0D1B655F40009410E7 /* Test */,
 				843CED2A1B655F40009410E7 /* TestTests */,
 				843CED0C1B655F40009410E7 /* Products */,
+				EAA3BDD797349F3A231D33E2 /* Pods */,
+				7CE6CD8DDBBD49931BF31F66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +108,12 @@
 		843CED0D1B655F40009410E7 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				843CED3A1B65641C009410E7 /* Song */,
+				843CED431B656AF4009410E7 /* CustomTableViewCell.h */,
+				843CED441B656AF4009410E7 /* CustomTableViewCell.m */,
 				843CED121B655F40009410E7 /* AppDelegate.h */,
 				843CED131B655F40009410E7 /* AppDelegate.m */,
+				84A76CCE1B66941500C1DF9E /* PrefixHeader.pch */,
 				843CED181B655F40009410E7 /* ViewController.h */,
 				843CED191B655F40009410E7 /* ViewController.m */,
 				843CED1B1B655F40009410E7 /* Main.storyboard */,
@@ -122,6 +151,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		843CED3A1B65641C009410E7 /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				84DF26521B66B51600445C0C /* Song.h */,
+				84DF26531B66B51600445C0C /* Song.m */,
+				8409BCAD1B681CC5001446BB /* SongRKObjectManager.h */,
+				8409BCAE1B681CC5001446BB /* SongRKObjectManager.m */,
+			);
+			name = Song;
+			sourceTree = "<group>";
+		};
+		EAA3BDD797349F3A231D33E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD4E5F29227C91F2D17E8DF5 /* Pods-Test.debug.xcconfig */,
+				E71639374CE675C68F88DCE4 /* Pods-Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 843CED311B655F40009410E7 /* Build configuration list for PBXNativeTarget "Test" */;
 			buildPhases = (
+				054EAE3838B26C6956C2CBAA /* Check Pods Manifest.lock */,
 				843CED071B655F3F009410E7 /* Sources */,
 				843CED081B655F3F009410E7 /* Frameworks */,
 				843CED091B655F3F009410E7 /* Resources */,
+				390E44612E65707AE43FB757 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,14 +268,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		054EAE3838B26C6956C2CBAA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		390E44612E65707AE43FB757 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test/Pods-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		843CED071B655F3F009410E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DF26541B66B51600445C0C /* Song.m in Sources */,
 				843CED141B655F40009410E7 /* AppDelegate.m in Sources */,
+				843CED451B656AF4009410E7 /* CustomTableViewCell.m in Sources */,
 				843CED111B655F40009410E7 /* main.m in Sources */,
 				843CED1A1B655F40009410E7 /* ViewController.m in Sources */,
+				8409BCAF1B681CC5001446BB /* SongRKObjectManager.m in Sources */,
 				843CED171B655F40009410E7 /* Test.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +434,7 @@
 		};
 		843CED321B655F40009410E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4E5F29227C91F2D17E8DF5 /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test/Info.plist;
@@ -357,6 +445,7 @@
 		};
 		843CED331B655F40009410E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71639374CE675C68F88DCE4 /* Pods-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test/Info.plist;
@@ -418,6 +507,7 @@
 				843CED331B655F40009410E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843CED341B655F40009410E7 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +516,7 @@
 				843CED361B655F40009410E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

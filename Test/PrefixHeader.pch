@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  Test
+//
+//  Created by Admin on 27.07.15.
+//  Copyright (c) 2015 Mariya Beketova. All rights reserved.
+//
+
+#ifndef Test_PrefixHeader_pch
+#define Test_PrefixHeader_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#endif
+
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#else
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <CoreServices/CoreServices.h>
+#endif
+
+// Make RestKit globally available
+#import <RestKit/RestKit.h>
+
+#define     MAIN_URL    @"http://kilograpp.com:8080/songs/api/songs"
+#define     URL_METOD   @"/api/songs"
+#define     AUTHOR      @"author"
+#define     LABEL       @"label"
+#define     ID          @"id"
+#define     ID_SONG     @"idSong"
+#define     SING_ID     @"singID"
+
+
+#endif
